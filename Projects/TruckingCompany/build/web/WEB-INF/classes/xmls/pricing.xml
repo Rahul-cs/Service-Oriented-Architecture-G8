@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Pricing>
+	<priceID id="PR001"> 
+	<locationIDFrom>Loc001</locationIDFrom>
+	<locationIDTO>Loc003</locationIDTO>
+	<price>800</price>
+	<locationCodeFrom>355</locationCodeFrom>
+	<locationCodeTo>616</locationCodeTo>
+	<locationNameFrom>york</locationNameFrom>
+	<locationNameTo>IIT</locationNameTo>
+	<customerID>105</customerID>
+	</priceID>
+	
+	----------------------------------
+	<priceID id="PR002"> 
+	<locationIDFrom>Loc002</locationIDFrom>
+	<locationIDTO> Loc003</locationIDTO>
+	<price>1000</price>
+	<locationCodeFrom>716</locationCodeFrom>
+	<locationCodeTo>616</locationCodeTo>
+	<locationNameFrom>ASU</locationNameFrom>
+	<locationNameTo>IIT</locationNameTo>
+	<customerID>101</customerID>
+	</priceID>	
+</Pricing>
+
+
+
+
+

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Trucks>
+	<TruckNo id="Truck001">
+	<Make>TATA</Make>
+	<Year>2015</Year>
+	<Model>M22</Model>
+	<LicensePlateNo>CA 0976</LicensePlateNo>
+	<EmployeeID>Emp005</EmployeeID>
+	<Color>Red</Color>
+	<vin>V0022</vin>
+	</TruckNo>
+	
+	<TruckNo id="Truck002">
+	<Make>Force</Make>
+	<Year>2012</Year>
+	<Model>FT69</Model>
+	<LicensePlateNo>TX 1571</LicensePlateNo>
+	<EmployeeID>Emp003</EmployeeID>
+	<Color>Silver</Color>
+	<vin>V0033</vin>
+	</TruckNo>
+	
+	<TruckNo id="Truck003">
+	<Make>Universal</Make>
+	<Year>2017</Year>
+	<Model>UI023</Model>
+	<LicensePlateNo>MI 2274</LicensePlateNo>
+	<EmployeeID>Emp001</EmployeeID>
+	<Color>Blue</Color>
+	<vin>V0044</vin>
+	</TruckNo>
+
+	<TruckNo id="Truck004">
+	<Make>USA Transport</Make>
+	<Year>2014</Year>
+	<Model>USA050</Model>
+	<LicensePlateNo>NY5556</LicensePlateNo>
+	<EmployeeID>Emp002</EmployeeID>
+	<Color>Black</Color>
+	<vin>V0055
+	</vin>
+	</TruckNo>
+
+	
+</Trucks>
+

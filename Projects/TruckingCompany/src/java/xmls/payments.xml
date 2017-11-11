@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+	
+<Payments>
+	<PaymentID id="PAY001">
+	<OrderID>Order001</OrderID>
+	<TransactionID>T1</TransactionID>
+	<PaymentInformation>
+		<PaymentMethodID>card</PaymentMethodID>
+		<PaymentAmount>800</PaymentAmount>
+		<PaymentDate>12/02/2014</PaymentDate>
+		<CheckNumber>5555</CheckNumber>
+		<CreditCard>112233</CreditCard>
+		<CreditCardNumber>121</CreditCardNumber>
+		<CardholdersName>steve jobs</CardholdersName>
+		<CreditCardExpDate>2/2/22</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>1029</CreditCardAuthorizationNumber>
+	</PaymentInformation>
+	</PaymentID>
+-------------------------------------------------------
+<PaymentID id="PAY002">
+	<OrderID>Order002</OrderID>
+	<TransactionID>T2</TransactionID>
+	<PaymentInformation>
+		<PaymentMethodID>cash</PaymentMethodID>
+		<PaymentAmount>1000</PaymentAmount>
+		<PaymentDate>12/03/2014</PaymentDate>
+		<CheckNumber>6666</CheckNumber>
+		<CreditCard>556677</CreditCard>
+		<CreditCardNumber>131</CreditCardNumber>
+		<CardholdersName>bill gates</CardholdersName>
+		<CreditCardExpDate>10/10/27</CreditCardExpDate>
+		<CreditCardAuthorizationNumber>5263</CreditCardAuthorizationNumber>
+	</PaymentInformation>
+	</PaymentID>
+</Payments>
+
+
+

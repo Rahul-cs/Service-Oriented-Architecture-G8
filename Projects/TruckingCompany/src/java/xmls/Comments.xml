@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Comments>
+	<commentID id ="111">
+	<CommentTime>11:23:21</CommentTime>
+	<comment>Comment1</comment>
+	<CustomerID>101</CustomerID>
+	<transactionID>T1</transactionID>
+	<locationID>Loc001</locationID>
+	<truckno>Truck001</truckno>
+	 </commentID>
+	 
+	 <commentID id="112">
+	<CommentTime>11:20:15</CommentTime>
+	<comment>Comment2</comment>
+	<CustomerID>103</CustomerID>
+	<transactionID>T2</transactionID>
+	<locationID>Loc002</locationID>
+	<truckno>Truck002</truckno>
+	 </commentID>	 
+
+	<commentID id="113">
+	<CommentTime>11:23:21</CommentTime>
+	<comment>Comment3</comment>
+	<CustomerID>103</CustomerID>
+	<transactionID>T2</transactionID>
+	<locationID>Loc003</locationID>
+	<truckno>Truck003</truckno>
+	 </commentID>
+	 
+	 <commentID id="114">
+	<CommentTime>11:20:15</CommentTime>
+	<comment>Comment4</comment>
+	<CustomerID>104</CustomerID>
+	<transactionID>T1</transactionID>
+	<locationID>Loc003</locationID>
+	<truckno>Truck004</truckno>
+	 </commentID>	
+	  
+</Comments>

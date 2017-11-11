@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Orders>
+	<OrderID id="Order001">
+	<OrderDate>01/12/2017</OrderDate>
+	<CustomerID>103</CustomerID>
+	<EmployeeID>Emp001</EmployeeID>
+	<TruckID>Truck001</TruckID>
+	<isSPecial>Yes</isSPecial>
+	<PurchaseOrderNumber>21</PurchaseOrderNumber>
+	<OrderTotalAmount>800</OrderTotalAmount>
+	</OrderID>
+	
+	<OrderID id="Order002">
+	<OrderDate>01/12/2017 </OrderDate>
+	<CustomerID>103</CustomerID>
+	<EmployeeID>Emp002 </EmployeeID>
+	<TruckID>Truck002</TruckID>
+	<isSPecial>Yes </isSPecial>
+	<PurchaseOrderNumber>31</PurchaseOrderNumber>
+	<OrderTotalAmount>700</OrderTotalAmount>
+	</OrderID>
+	
+	<OrderID id="Order003">
+	<OrderDate>01/12/2017 </OrderDate>
+	<CustomerID>101</CustomerID>
+	<EmployeeID>Emp003 </EmployeeID>
+	<TruckID>Truck003</TruckID>
+	<isSPecial>Yes</isSPecial>
+	<PurchaseOrderNumber>41</PurchaseOrderNumber>
+	<OrderTotalAmount>500</OrderTotalAmount>
+	</OrderID>
+	
+	<OrderID id ="Order004">
+	<OrderDate>01/12/2017 </OrderDate>
+	<CustomerID>105</CustomerID>
+	<EmployeeID>Emp005</EmployeeID>
+	<TruckID>Truck004</TruckID>
+	<isSPecial>Yes </isSPecial>
+	<PurchaseOrderNumber>51</PurchaseOrderNumber>
+	<OrderTotalAmount>1000</OrderTotalAmount>
+	</OrderID>
+</Orders>
+

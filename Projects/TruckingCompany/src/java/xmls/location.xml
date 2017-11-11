@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+
+<locations>
+<locationID id ="Loc001"> 
+	<locName>york</locName>
+ 	<locationCode>355</locationCode>
+ 	<isAuction>NO</isAuction>
+	<Address>
+		<customerID>101</customerID>
+		<addressStreet1>2951</addressStreet1>
+		<addressStreet2>south king</addressStreet2>
+		<city>chicago</city>
+		<state>IL</state>
+		<postalCode>60616</postalCode>
+		<region >S America</region>
+		<location_contact_name>Tony</location_contact_name>
+		<locPhone>2337685670</locPhone>
+		<locFaxNumber>234-233</locFaxNumber>
+		<locEmail>tony123@gmail.com</locEmail>
+	</Address>
+	</locationID>
+	---------------------
+<locationID id="Loc002"> 
+	<locName>ASU</locName>
+ 	<locationCode>716</locationCode>
+ 	<isAuction>Yes</isAuction>
+	<Address>
+		<customerID>104</customerID>
+		<addressStreet1>2001</addressStreet1>
+		<addressStreet2>north drive</addressStreet2>
+		<city>spring field</city>
+		<state>IL</state>
+		<postalCode>60616</postalCode>
+		<region >N A</region>
+		<location_contact_name>Jee</location_contact_name>
+		<locPhone>1234567676</locPhone>
+		<locFaxNumber>982-222</locFaxNumber>
+		<locEmail>jee@gmail</locEmail>
+	</Address>
+	</locationID>
+	
+<locationID id="Loc003"> 
+	<locName>IIT</locName>
+ 	<locationCode>616</locationCode>
+ 	<isAuction>Yes</isAuction>
+	<Address>
+		<customerID>103</customerID>
+		<addressStreet1>95th</addressStreet1>
+		<addressStreet2>North Avenue</addressStreet2>
+		<city>chicago</city>
+		<state>IL</state>
+		<postalCode>60616</postalCode>
+		<region >N America</region>
+		<location_contact_name>John</location_contact_name>
+		<locPhone>1234567476</locPhone>
+		<locFaxNumber>972-222</locFaxNumber>
+		<locEmail>john@gmail</locEmail>
+	</Address>
+	</locationID>
+	
+</locations>
+
+ 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+ 

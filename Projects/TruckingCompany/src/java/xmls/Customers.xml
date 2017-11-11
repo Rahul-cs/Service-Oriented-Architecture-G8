@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+
+<Customers>
+	<CustomerID id="100">
+	<CustomerTitle>Mr</CustomerTitle>
+	<BusinessName>Business1</BusinessName>
+	<BillingAddress> 
+		<City>chicago</City>
+		<State>IL</State>
+		<PostalCode>60616</PostalCode>
+		<Country>USA</Country>
+		<PhoneNumber>3126664589</PhoneNumber>
+		<CellNumber>3125673458</CellNumber>
+		<OtherNumber>3428753456</OtherNumber>
+		<FaxNumber>1122-22</FaxNumber>
+		<EmailAddress>business1@gmail.com</EmailAddress>
+	</BillingAddress> 
+	<Customer> 
+		<Type>Loyal</Type>
+		<CompanyName>Amazon</CompanyName>
+		<ContactName>Rahul</ContactName>
+		<AlternateContactName>RCS</AlternateContactName>
+		<DateEntered>29/12/12</DateEntered>
+	</Customer>
+	</CustomerID>	
+	
+	<CustomerID id="101">
+	<CustomerTitle>Ms</CustomerTitle>
+	<BusinessName>Business2</BusinessName>
+	<BillingAddress> 
+		<City>arizona</City>
+		<State>AS</State>
+		<PostalCode>60626</PostalCode>
+		<Country>USA </Country>
+		<PhoneNumber>3211146206 </PhoneNumber>
+		<CellNumber> 1323456789	</CellNumber>
+		<OtherNumber>3216745678 </OtherNumber>
+		<FaxNumber>1111-22 </FaxNumber>
+		<EmailAddress>business2@gmail.com</EmailAddress>
+	</BillingAddress> 
+	<Customer> 
+		<Type>Discount</Type>
+		<CompanyName>Microsoft</CompanyName>
+		<ContactName>Pallavi</ContactName>
+		<AlternateContactName>PRR</AlternateContactName>
+		<DateEntered>14/10/15</DateEntered>
+	</Customer>
+	</CustomerID>
+
+	<CustomerID id="103">
+	<CustomerTitle>Mr</CustomerTitle>
+	<BusinessName>Business3</BusinessName>
+	<BillingAddress> 
+		<City>Hartford</City>
+		<State> CT</State>
+		<PostalCode>60634</PostalCode>
+		<Country>USA </Country>
+		<PhoneNumber>8674452675</PhoneNumber>
+		<CellNumber> 8356751234</CellNumber>
+		<OtherNumber>8009447676</OtherNumber>
+		<FaxNumber>46454-22</FaxNumber>
+		<EmailAddress>business3@gmail.com</EmailAddress>
+	</BillingAddress> 
+	<Customer> 
+		<Type>Loyal</Type>
+		<CompanyName>eBay</CompanyName>
+		<ContactName>James</ContactName>
+		<AlternateContactName>JAA</AlternateContactName>
+		<DateEntered>30/10/17 </DateEntered>
+	</Customer>
+	</CustomerID>
+	
+	<CustomerID id="104">
+	<CustomerTitle>Mr</CustomerTitle>
+	<BusinessName>Business4</BusinessName>
+	<BillingAddress> 
+		<City>Rockville</City>
+		<State>MD</State>
+		<PostalCode>605467</PostalCode>
+		<Country>USA </Country>
+		<PhoneNumber>32457658900</PhoneNumber>
+		<CellNumber>1323456789</CellNumber>
+		<OtherNumber>3216745678</OtherNumber>
+		<FaxNumber>7777-45</FaxNumber>
+		<EmailAddress>business3@gmail.com</EmailAddress>
+	</BillingAddress> 
+	<Customer> 
+		<Type>Discount</Type>
+		<CompanyName>Celegen</CompanyName>
+		<ContactName> Ted</ContactName>
+		<AlternateContactName>Moasby</AlternateContactName>
+		<DateEntered>20/09/15 </DateEntered>
+	</Customer>
+	</CustomerID>
+	
+	<CustomerID id="105">
+	<CustomerTitle>Ms</CustomerTitle>
+	<BusinessName>Business5</BusinessName>
+	<BillingAddress> 
+		<City>boston</City>
+		<State> MA</State>
+		<PostalCode>60654</PostalCode>
+		<Country>USA</Country>
+		<PhoneNumber>8795643455</PhoneNumber>
+		<CellNumber> 7865458899</CellNumber>
+		<OtherNumber>6753451222</OtherNumber>
+		<FaxNumber>6666-44</FaxNumber>
+		<EmailAddress>business5@gmail.com</EmailAddress>
+	</BillingAddress> 
+	<Customer> 
+		<Type>Discount</Type>
+		<CompanyName>Discovery</CompanyName>
+		<ContactName>Robin</ContactName>
+		<AlternateContactName>ROB</AlternateContactName>
+		<DateEntered>17/01/17</DateEntered>
+	</Customer>
+	</CustomerID>
+</Customers>

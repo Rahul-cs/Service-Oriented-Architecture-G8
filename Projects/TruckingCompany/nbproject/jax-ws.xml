@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="GetDriverDetails">
+      <implementation-class>services.GetDriverDetails</implementation-class>
+    </service>
+    <service name="GetOrderdetails">
+      <implementation-class>services.GetOrderdetails</implementation-class>
+    </service>
+    <service name="TotalOrdersAndExpense">
+      <implementation-class>services.TotalOrdersAndExpense</implementation-class>
+    </service>
+    <service name="InsuranceDetailsForTruck">
+      <implementation-class>services.InsuranceDetailsForTruck</implementation-class>
+    </service>
+    <service name="LocationHavingMaxOrderAmt">
+      <implementation-class>services.LocationHavingMaxOrderAmt</implementation-class>
+    </service>
+    <service name="TransactionDateforOrder">
+      <implementation-class>services.TransactionDateforOrder</implementation-class>
+    </service>
+    <service name="LocationFromToForOrder">
+      <implementation-class>services.LocationFromToForOrder</implementation-class>
+    </service>
+    <service name="LoyalCustomerInfo">
+      <implementation-class>services.LoyalCustomerInfo</implementation-class>
+    </service>
+    <service name="PayementDetailsofInvoice">
+      <implementation-class>services.PayementDetailsofInvoice</implementation-class>
+    </service>
+    <service name="GetEmployeedetailsofTruck">
+      <implementation-class>services.GetEmployeedetailsofTruck</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>

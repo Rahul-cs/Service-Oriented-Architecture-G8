@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+
+<Invoices>
+<Invoicenumber_ID id="IN001">
+<paymentID>PAY001</paymentID>
+<address>
+	<name>James </name>
+	<company>VMware</company>
+	<street>2901 south king drive</street>
+</address>
+
+<product>
+	<description>BMW </description>
+	<price>2000</price>
+	<quantity>1</quantity>
+</product>
+</Invoicenumber_ID>
+
+-----------------------------------------------------
+<Invoicenumber_ID id="IN002">
+<paymentID>PAY002</paymentID>
+<address>
+	<name>nitin </name>
+	<company>jio</company>
+	<street>2801 south king drive</street>
+</address>
+
+<product>
+	<description>Audi</description>
+	<price>2020</price>
+	<quantity>2</quantity>
+</product>
+</Invoicenumber_ID>
+
+
+</Invoices>
