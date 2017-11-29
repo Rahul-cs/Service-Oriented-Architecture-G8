@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+        *** GENERATED FROM jax-ws.xml - DO NOT EDIT !                             ***
+        *** TO MODIFY wsimport options USE Web Service node -> Edit WS Attributes ***
+        *** TO CHANGE TARGETS GENERATED TO jaxws-build.xml COPY THOSE             ***
+        *** TARGETS TO ../build.xml AND MODIFY THAT FILE INSTEAD                  ***
+
+        --><project xmlns:xalan="http://xml.apache.org/xslt" xmlns:webproject2="http://www.netbeans.org/ns/web-project/2" xmlns:jaxws="http://www.netbeans.org/ns/jax-ws/1">
+    <!--
+                ===================
+                JAX-WS WSGEN SECTION
+                ===================
+            -->
+    <!--
+                ===================
+                JAX-WS WSIMPORT SECTION
+                ===================
+            -->
+    <target name="wsimport-init" depends="init">
+        <fail if="${wsimport.bad.version}" message="WsImport ant task defined in the classpath ${j2ee.platform.wsimport.classpath} has a serious bug. See http://wiki.netbeans.org/MetroIssue for details."/>
+        <mkdir dir="${build.generated.sources.dir}/jax-ws"/>
+        <property name="j2ee.platform.wsimport.classpath" value="${libs.jaxws21.classpath}"/>
+        <taskdef name="wsimport" classname="com.sun.tools.ws.ant.WsImport">
+            <classpath path="${java.home}/../lib/tools.jar:${j2ee.platform.wsimport.classpath}:${javac.classpath}"/>
+        </taskdef>
+        <condition property="conf-dir" value="${conf.dir}/" else="">
+            <isset property="conf.dir"/>
+        </condition>
+    </target>
+    <target name="wsimport-client-LocationFromToForOrder" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/LocationFromToForOrder"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/LocationFromToForOrder" destdir="${build.generated.dir}/jax-wsCache/LocationFromToForOrder" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/LocationFromToForOrder/wsdl/104.194.124.253_8080/TruckingCompany/LocationFromToForOrder.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/LocationFromToForOrder?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/LocationFromToForOrder/wsdl/104.194.124.253_8080/TruckingCompany/LocationFromToForOrder.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/LocationFromToForOrder"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/LocationFromToForOrder">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-LocationFromToForOrder" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/LocationFromToForOrder"/>
+    </target>
+    <target name="wsimport-client-GetDriverDetails" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/GetDriverDetails"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/GetDriverDetails" destdir="${build.generated.dir}/jax-wsCache/GetDriverDetails" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/GetDriverDetails/wsdl/104.194.124.253_8080/TruckingCompany/GetDriverDetails.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/GetDriverDetails?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/GetDriverDetails/wsdl/104.194.124.253_8080/TruckingCompany/GetDriverDetails.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/GetDriverDetails"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/GetDriverDetails">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-GetDriverDetails" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/GetDriverDetails"/>
+    </target>
+    <target name="wsimport-client-GetEmployeedetailsofTruck" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/GetEmployeedetailsofTruck"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/GetEmployeedetailsofTruck" destdir="${build.generated.dir}/jax-wsCache/GetEmployeedetailsofTruck" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/GetEmployeedetailsofTruck/wsdl/104.194.124.253_8080/TruckingCompany/GetEmployeedetailsofTruck.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/GetEmployeedetailsofTruck?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/GetEmployeedetailsofTruck/wsdl/104.194.124.253_8080/TruckingCompany/GetEmployeedetailsofTruck.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/GetEmployeedetailsofTruck"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/GetEmployeedetailsofTruck">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-GetEmployeedetailsofTruck" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/GetEmployeedetailsofTruck"/>
+    </target>
+    <target name="wsimport-client-LoyalCustomerInfo" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/LoyalCustomerInfo"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/LoyalCustomerInfo" destdir="${build.generated.dir}/jax-wsCache/LoyalCustomerInfo" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/LoyalCustomerInfo/wsdl/104.194.124.253_8080/TruckingCompany/LoyalCustomerInfo.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/LoyalCustomerInfo?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/LoyalCustomerInfo/wsdl/104.194.124.253_8080/TruckingCompany/LoyalCustomerInfo.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/LoyalCustomerInfo"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/LoyalCustomerInfo">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-LoyalCustomerInfo" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/LoyalCustomerInfo"/>
+    </target>
+    <target name="wsimport-client-LocationHavingMaxOrderAmt" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/LocationHavingMaxOrderAmt"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/LocationHavingMaxOrderAmt" destdir="${build.generated.dir}/jax-wsCache/LocationHavingMaxOrderAmt" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/LocationHavingMaxOrderAmt/wsdl/104.194.124.253_8080/TruckingCompany/LocationHavingMaxOrderAmt.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/LocationHavingMaxOrderAmt?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/LocationHavingMaxOrderAmt/wsdl/104.194.124.253_8080/TruckingCompany/LocationHavingMaxOrderAmt.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/LocationHavingMaxOrderAmt"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/LocationHavingMaxOrderAmt">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-LocationHavingMaxOrderAmt" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/LocationHavingMaxOrderAmt"/>
+    </target>
+    <target name="wsimport-client-GetOrderdetails" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/GetOrderdetails"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/GetOrderdetails" destdir="${build.generated.dir}/jax-wsCache/GetOrderdetails" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/GetOrderdetails/wsdl/104.194.124.253_8080/TruckingCompany/GetOrderdetails.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/GetOrderdetails?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/GetOrderdetails/wsdl/104.194.124.253_8080/TruckingCompany/GetOrderdetails.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/GetOrderdetails"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/GetOrderdetails">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-GetOrderdetails" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/GetOrderdetails"/>
+    </target>
+    <target name="wsimport-client-PayementDetailsofInvoice" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/PayementDetailsofInvoice"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/PayementDetailsofInvoice" destdir="${build.generated.dir}/jax-wsCache/PayementDetailsofInvoice" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/PayementDetailsofInvoice/wsdl/104.194.124.253_8080/TruckingCompany/PayementDetailsofInvoice.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/PayementDetailsofInvoice?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/PayementDetailsofInvoice/wsdl/104.194.124.253_8080/TruckingCompany/PayementDetailsofInvoice.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/PayementDetailsofInvoice"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/PayementDetailsofInvoice">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-PayementDetailsofInvoice" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/PayementDetailsofInvoice"/>
+    </target>
+    <target name="wsimport-client-TotalOrdersAndExpense" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/TotalOrdersAndExpense"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/TotalOrdersAndExpense" destdir="${build.generated.dir}/jax-wsCache/TotalOrdersAndExpense" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/TotalOrdersAndExpense/wsdl/104.194.124.253_8080/TruckingCompany/TotalOrdersAndExpense.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/TotalOrdersAndExpense?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/TotalOrdersAndExpense/wsdl/104.194.124.253_8080/TruckingCompany/TotalOrdersAndExpense.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/TotalOrdersAndExpense"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/TotalOrdersAndExpense">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-TotalOrdersAndExpense" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/TotalOrdersAndExpense"/>
+    </target>
+    <target name="wsimport-client-TransactionDateforOrder" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/TransactionDateforOrder"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/TransactionDateforOrder" destdir="${build.generated.dir}/jax-wsCache/TransactionDateforOrder" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/TransactionDateforOrder/wsdl/104.194.124.253_8080/TruckingCompany/TransactionDateforOrder.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/TransactionDateforOrder?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/TransactionDateforOrder/wsdl/104.194.124.253_8080/TruckingCompany/TransactionDateforOrder.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/TransactionDateforOrder"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/TransactionDateforOrder">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-TransactionDateforOrder" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/TransactionDateforOrder"/>
+    </target>
+    <target name="wsimport-client-InsuranceDetailsForTruck" depends="wsimport-init">
+        <mkdir dir="${build.generated.dir}/jax-wsCache/InsuranceDetailsForTruck"/>
+        <wsimport sourcedestdir="${build.generated.dir}/jax-wsCache/InsuranceDetailsForTruck" destdir="${build.generated.dir}/jax-wsCache/InsuranceDetailsForTruck" wsdl="${basedir}/${conf-dir}xml-resources/web-service-references/InsuranceDetailsForTruck/wsdl/104.194.124.253_8080/TruckingCompany/InsuranceDetailsForTruck.wsdl" catalog="catalog.xml" encoding="${source.encoding}" extension="true" verbose="true" fork="false" wsdlLocation="http://104.194.124.253:8080/TruckingCompany/InsuranceDetailsForTruck?wsdl" xnocompile="true" xendorsed="true">
+            <depends file="${basedir}/${conf-dir}xml-resources/web-service-references/InsuranceDetailsForTruck/wsdl/104.194.124.253_8080/TruckingCompany/InsuranceDetailsForTruck.wsdl"/>
+            <produces dir="${build.generated.dir}/jax-wsCache/InsuranceDetailsForTruck"/>
+        </wsimport>
+        <copy todir="${build.generated.sources.dir}/jax-ws">
+            <fileset dir="${build.generated.dir}/jax-wsCache/InsuranceDetailsForTruck">
+                <include name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="wsimport-client-clean-InsuranceDetailsForTruck" depends="-init-project">
+        <delete dir="${build.generated.sources.dir}/jax-ws/services"/>
+        <delete dir="${build.generated.dir}/jax-wsCache/InsuranceDetailsForTruck"/>
+    </target>
+    <target name="wsimport-client-generate" depends="wsimport-client-LocationFromToForOrder, wsimport-client-GetDriverDetails, wsimport-client-GetEmployeedetailsofTruck, wsimport-client-LoyalCustomerInfo, wsimport-client-LocationHavingMaxOrderAmt, wsimport-client-GetOrderdetails, wsimport-client-PayementDetailsofInvoice, wsimport-client-TotalOrdersAndExpense, wsimport-client-TransactionDateforOrder, wsimport-client-InsuranceDetailsForTruck"/>
+</project>
